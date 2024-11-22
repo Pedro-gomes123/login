@@ -1,0 +1,142 @@
+body {
+	background-image: url(./Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+*{
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.conteiner_principal{
+    display: grid;
+    grid-template-columns:  50% 50%;
+}
+
+.walcome{
+    margin-left: 300px;
+    margin-top: 285px;
+    font-size: 55px;
+}
+
+.login{
+    font-size: 35px;
+    color: black;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.tex1{
+    color: rgba(189, 189, 189, 0.816);
+    margin-left: 120px;
+}
+
+.tex2{
+    color: rgba(189, 189, 189, 0.816);
+    margin-left: 120px;
+}
+
+.name{
+    margin-left: 120px;
+    width: 300px;
+}
+
+input {
+    border: 2px solid rgba(189, 189, 189, 0.816);
+    border-radius: 7px;
+    width: 100%;
+    height: 45px; /* Altura do input */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho do texto */
+    box-sizing: border-box; /* Garante que padding não afete a largura total */
+}
+
+.password{
+    margin-left: 120px;
+    width: 300px;
+}
+
+.tex3{
+    color: rgba(189, 189, 189, 0.816);
+    margin-left: 120px;
+}
+
+.sub_conteiner{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.toggle-checkbox {
+    display: none;
+    
+}
+
+.checklist-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;    
+    font-size: 12px;
+    color: rgba(189, 189, 189, 0.816);
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.checklist-label::before {
+    content: '';
+    display: inline-block;
+    width: 15px; 
+    height: 15px;
+    border: 2px solid rgba(189, 189, 189, 0.816); 
+    border-radius: 7px;
+    background-color: white;
+   
+}
+
+.toggle-checkbox:checked + .checklist-label::before {
+    background-color: #aa18d6ae; 
+    border-color: rgba(189, 189, 189, 0.816); 
+    content: '✓';
+    color: rgba(189, 189, 189, 0.816);
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.tex4{
+    color: rgba(189, 189, 189, 0.816);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.button_login{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid  whitesmoke;
+    border-radius: 10px;
+    color: rgb(255, 253, 253);
+    background-color:  #7a18d6;
+}
+
+.button_login:hover{
+    background-color: #7a18d6 ;
+    border: 1px solid rgba(0, 0, 0, 0.888);
+}
+.tex5{
+    color: rgba(189, 189, 189, 0.816);
+    text-decoration: none;
+    margin-left: 120px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+
+
